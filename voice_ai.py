@@ -134,9 +134,9 @@ def main():
         handle_command(command, weather_data)
 
 if __name__ == "__main__":
-    api_key = "3fba9763eaebb0eb2df0841c84029d15"
-    city = "Taguig City"
-    country_code = "ph"
+    api_key = "  " #use your own api key on this website https://openweathermap.org/api 
+    city = "  " #select different city
+    country_code = "  "  #your country code
 
     weather_data = get_weather_data(api_key, city, country_code)
 
