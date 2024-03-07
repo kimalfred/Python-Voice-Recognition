@@ -102,7 +102,7 @@ def handle_command(command, weather_data):
     elif "news" in command.lower():
         speak("Sorry, I don't have news information right now.")
 
-    elif "tell a joke" in command.lower():
+    elif "tell me a joke" in command.lower():
         speak("Why do programmers prefer dark mode? Because light attracts bugs! HAHAHA")
     
     elif "open notepad" in command.lower():
