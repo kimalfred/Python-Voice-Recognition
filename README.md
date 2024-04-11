@@ -17,7 +17,7 @@ Simple Python voice recognition that User can use voice command to communicate w
 pip install SpeechRecognition pyttsx3 requests
 
 ```
-2. Get an API key from [OpenWeatherMap](https://openweathermap.org/api) and use your real API key in line of `'YOUR_API_KEY'} in the code.
+2. Get an API key from [OpenWeatherMap](https://openweathermap.org/api) and use your real API key in line of `{'YOUR_API_KEY'}` in the code.
 
 ```python
     api_key = "  " #use your own api key
